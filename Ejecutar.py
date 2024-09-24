@@ -4,7 +4,7 @@ import subprocess
 import http.server
 import socketserver
 
-puerto = 5555  # Declarar la variable puerto aquí
+puerto = 8080  # Declarar la variable puerto aquí
 
 # Función para obtener la IP actual del sistema usando ifconfig
 def obtener_ip():
