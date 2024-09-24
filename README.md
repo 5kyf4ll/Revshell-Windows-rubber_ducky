@@ -33,7 +33,3 @@ Este proyecto se presenta únicamente con fines educativos y de concientización
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, no dudes en enviar un pull request.
-
-## Licencia
-
-Este proyecto está licenciado bajo la [MIT License](LICENSE).
