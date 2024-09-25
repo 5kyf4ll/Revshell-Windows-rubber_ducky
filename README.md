@@ -17,7 +17,7 @@ Este proyecto está diseñado para facilitar la ejecución remota de comandos en
 2. La herramienta levanta un servidor en python y se pone en escucha con netcat.
 ![image](https://github.com/user-attachments/assets/14480c85-b19a-4189-b9ad-6c7439deadaa)
 
-3. Una vez levantado todo el ruber ducky esta listo para hacer su trabajo
+3. Una vez levantado todo el ruber ducky esta listo para hacer su trabajo (el codigo del rubber ducky está en **Codigo_en_rubber_ducky.txt**)
 ![image](https://github.com/user-attachments/assets/0550dd7f-7d8c-4cd1-9e1d-b9349e25ff0a)
 
 4. Cambiamos la linea que dice STRING powershell ............ por la que nos da el programa Ejecutar.py
