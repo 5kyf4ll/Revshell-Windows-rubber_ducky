@@ -1,4 +1,4 @@
-# Revshell-Windows-rubber_ducky
+![image](https://github.com/user-attachments/assets/86ebf780-27ad-4f79-a99a-7ed3fc860fb6)# Revshell-Windows-rubber_ducky
 
 Este proyecto está diseñado para facilitar la ejecución remota de comandos en una máquina Windows a través de un Rubber Ducky. El script utiliza un archivo de PowerShell que se descarga y ejecuta automáticamente, permitiendo así obtener una reverse shell.
 
@@ -18,17 +18,22 @@ Este proyecto está diseñado para facilitar la ejecución remota de comandos en
 ![image](https://github.com/user-attachments/assets/14480c85-b19a-4189-b9ad-6c7439deadaa)
 
 3. Una vez levantado todo el ruber ducky esta listo para hacer su trabajo
+![image](https://github.com/user-attachments/assets/0550dd7f-7d8c-4cd1-9e1d-b9349e25ff0a)
+
+4. Cambiamos la linea que dice STRING powershell ............ por la que nos da el programa Ejecutar.py
+![image](https://github.com/user-attachments/assets/aa339d21-f7d4-4210-8384-5c516303fd63)
+
+5. Usamos el ruber ducky en una maquina Windows 10 y habremos ganado una reverse shell
+![image](https://github.com/user-attachments/assets/f2097e92-92da-488a-b2e3-910cfc9f3ea2)
+
+**PSDT:**
+- Puedes cambiar el tiempo del **DELAY**
 
 ## Requisitos
 
 - Rubber Ducky o un dispositivo similar capaz de ejecutar scripts.
 - Python (para el servidor HTTP).
-
-## Uso
-
-1. Conecta el Rubber Ducky a la máquina víctima.
-2. Asegúrate de que el servidor HTTP esté en ejecución.
-3. La conexión de reverse shell se establecerá automáticamente, permitiendo la ejecución remota de comandos.
+- Netcat (para recibir la reverse shell)
 
 ## Seguridad
 
