@@ -9,11 +9,15 @@ Este proyecto está diseñado para facilitar la ejecución remota de comandos en
 - **Reverse Shell**: El proyecto establece una conexión de reverse shell, lo que permite al atacante tomar control de la máquina comprometida.
 - **Servidor HTTP**: Incluye un servidor HTTP en Python que comparte el archivo PowerShell para su descarga.
 
-## Cómo Funciona
+## ¿Cómo Funciona?
 
-1. **Desactivación de Windows Defender**: Al ejecutar el Rubber Ducky, se desactiva Windows Defender.
-2. **Establecimiento de Reverse Shell**: El Rubber Ducky ejecuta un comando que descarga y ejecuta un script de PowerShell desde el servidor HTTP.
-3. **Escucha en un Puerto Específico**: Se pone en escucha en un puerto específico para recibir conexiones entrantes, permitiendo el control remoto de la máquina.
+1. La herramienta lista las interfaces de red disponible para hacer el uso de la ip:
+![image](https://github.com/user-attachments/assets/5a0f9689-2706-46c7-b7d9-35e2cea3a82b)
+
+2. La herramienta levanta un servidor en python y se pone en escucha con netcat.
+![image](https://github.com/user-attachments/assets/14480c85-b19a-4189-b9ad-6c7439deadaa)
+
+3. Una vez levantado todo el ruber ducky esta listo para hacer su trabajo
 
 ## Requisitos
 
