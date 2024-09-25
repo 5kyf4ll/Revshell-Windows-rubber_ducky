@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/86ebf780-27ad-4f79-a99a-7ed3fc860fb6)# Revshell-Windows-rubber_ducky
+# Revshell-Windows-rubber_ducky
 
 Este proyecto está diseñado para facilitar la ejecución remota de comandos en una máquina Windows a través de un Rubber Ducky. El script utiliza un archivo de PowerShell que se descarga y ejecuta automáticamente, permitiendo así obtener una reverse shell.
 
